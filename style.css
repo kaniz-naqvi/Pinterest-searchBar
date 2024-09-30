@@ -1,0 +1,45 @@
+.round-border{
+    border-radius: 50px;
+    
+}
+.flex-box-itm{
+    gap: 50px;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.images{
+    height: fit-content;
+    width: fit-content;
+}
+.images img{
+    border-radius: 20px;
+    background-size: cover;
+    height:auto;
+    width: auto;
+    max-width: 250px;
+    max-height: 350px;
+}
+.username{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.username img{
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    background-size: cover;
+}
